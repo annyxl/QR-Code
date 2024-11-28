@@ -23,14 +23,26 @@ body {
 }
 
 .card-img img {
+    display: block;
     border-radius: 10px;
     width: 100%;
+}
+
+.card-content {
+    margin-top: 24px;
+    padding: 0 16px;
+    
+}
+
+.card-content * {
+    margin: 0;
 }
 
 .card-content h2 {
     color:hsl(218, 44%, 22%);
     font-weight: 700;
     font-family: "Outfit", sans-serif;
+    font-size: 22px;
     line-height: 120%;
 }
 
@@ -40,4 +52,5 @@ body {
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0.2px;
+    margin-top: 16px;
 }
